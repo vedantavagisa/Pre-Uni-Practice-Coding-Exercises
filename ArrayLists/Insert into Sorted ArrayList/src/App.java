@@ -28,7 +28,7 @@ public class App {
                 numbers.set(i+1, insert);
                 inserted = true;
             }
-        } if (!inserted) {
+        } if (!inserted) { 
             numbers.add(insert);
         }
 
