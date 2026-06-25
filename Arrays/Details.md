@@ -1,4 +1,4 @@
-I asked ChatGPT to generate some HashMap exercises. Here is what it says.
+I asked ChatGPT to generate some Array exercises. Here is what it says.
 
 # PROMPT: 
 Give me a problem to test my understanding of 1D arrays. Then give me 2D array problems.
