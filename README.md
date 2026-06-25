@@ -5,12 +5,6 @@ This is me revising my programming understanding with simple exercises. The even
 I made the following 60 day plan with Gemini, and I will more-or-less be following it throughout summer:
 
 # The plan
-I got into the WLU-based BBA/BCS Double Degree at WLU/UW.
-
-I want to prepare my CS knowledge since I haven't done rigorous CS in maybe 3 years.
-
-I asked AI elsewhere and got the following plan:
-
 This is a 60-day, day-by-day roadmap tailored for your June-to-August timeline. It scales from **1 hour/day** (Days 1–20) while you finish up school commitments, up to **4 hours/day** (Days 21–60) for the heavy summer grind.
 
 To maximize efficiency and keep you hackathon-ready, we are going to tweak the language order slightly: you will use **Python** for your backend and competitive programming, and **JavaScript/HTML/CSS** for your frontend. Learning JavaScript *before* your side project is essential, because it is the actual glue that connects a frontend to a backend API.
