@@ -6,14 +6,12 @@ import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 public class App {
 
-    public static int count(int[] arr, int index, int num, int occurrences) {
-        if (arr[index] == num) {
-            occurrences++;
-        } if (index < arr.length - 1) {
-            return count(arr, index + 1, num, occurrences);
-        } else {
-            return occurrences;
-        }
+    public static int count(int[] arr, int index, int num) {
+        if (index == arr.length) {
+            return 0;
+        } if (arr[index]==num && index < arr.length) {
+            return 1 + count(arr, index + 1, num);
+        } return count(arr, index + 1, num);
     }
 
     public static void main(String[] args) {
@@ -32,7 +30,7 @@ public class App {
         int target = sc.nextInt();
 
         //ok now all of that is done
-        System.out.println("The number of occurrences is " + count(arr, 0, target, 0));
+        System.out.println("The number of occurrences is " + count(arr, 0, target));
 
 
     }
