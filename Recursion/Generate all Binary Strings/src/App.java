@@ -9,16 +9,28 @@
      * 101
      * 110
      * 111
+ * This is a work in progress.
  */
 
+import java.util.Scanner;
 public class App {
 
-    public static String binaryString(String str, int n) {
-        //
-        return str;
+    public static void binaryString(int n) {
+        if (n == 1) {
+            System.out.println(0);
+            System.out.println(1);
+        } else {
+            System.out.print(0);
+            binaryString(n-1);
+            System.out.print(1);
+            binaryString(n-1);
+        }
+        
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        System.out.println("Enter n");
+        Scanner sc = new Scanner(System.in);
+        binaryString(sc.nextInt());
     }
 }
