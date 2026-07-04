@@ -23,7 +23,7 @@ public class App {
             System.out.print(0);
             binaryString(n-1);
             System.out.print(1);
-            binaryString(n-1);
+            binaryString(n-1);  //this is what Matthew recommended but it doesn't work. The pseudocode that he suggested, however, seems to work.
         }
         
     }
