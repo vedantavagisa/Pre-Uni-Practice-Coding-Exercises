@@ -9,21 +9,19 @@
      * 101
      * 110
      * 111
- * This is a work in progress.
- */
+ * This is a work in progress
+*/
 
 import java.util.Scanner;
 public class App {
 
-    public static void binaryString(int n) {
+    public static void binaryString(int n, String pass) {
         if (n == 1) {
-            System.out.println(0);
-            System.out.println(1);
+            IO.println(pass+"0");
+            IO.println(pass+"1");
         } else {
-            System.out.print(0);
-            binaryString(n-1);
-            System.out.print(1);
-            binaryString(n-1);  //this is what Matthew recommended but it doesn't work. The pseudocode that he suggested, however, seems to work.
+            binaryString(n-1, pass + "0");
+            binaryString(n-1, pass + "1");
         }
         
     }
@@ -31,6 +29,6 @@ public class App {
     public static void main(String[] args) {
         System.out.println("Enter n");
         Scanner sc = new Scanner(System.in);
-        binaryString(sc.nextInt());
+        binaryString(sc.nextInt(), "");
     }
 }
