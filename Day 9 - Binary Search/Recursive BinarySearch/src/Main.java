@@ -16,7 +16,7 @@ public static int binarySearch(int[] arr, int left, int right, int target) {
 }
 
 /// ChatGPT actually recommended this, which I find sleek and beautiful:
-/**public static int binarySearch(int[] arr, int target) {
+/*public static int binarySearch(int[] arr, int target) {
     return binarySearch(arr, 0, arr.length - 1, target);
 }
 
