@@ -15,15 +15,14 @@ public static int partition(int[] arr, int left, int right) {
     arr[pivotIndex] = temporary;
     return wall;
     
-} public static int[] quickSort(int[] arr, int left, int right) {
+} public static void quickSort(int[] arr, int left, int right) {
     int pivotIndex;
     if (left >= right) {
-        return arr;
-    } else {
-        pivotIndex = partition(arr, left, right);
-        quickSort(arr, left, pivotIndex - 1);
-        quickSort(arr, pivotIndex + 1, right);
-    } return arr;
+        return;
+    } pivotIndex = partition(arr, left, right);
+    quickSort(arr, left, pivotIndex - 1);
+    quickSort(arr, pivotIndex + 1, right);
+    return;
 }
 
 public static void main(String[] args) {
