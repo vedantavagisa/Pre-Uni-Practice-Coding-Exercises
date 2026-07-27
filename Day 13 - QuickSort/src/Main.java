@@ -9,12 +9,10 @@ public static int partition(int[] arr, int left, int right) {
             arr[i]=arr[wall];
             arr[wall]=temporary;
             wall++;
-        } if (i == right-1) {
-            temporary = arr[wall];
-            arr[wall] = pivot;
-            arr[pivotIndex] = temporary;
         }
-    }
+    } temporary = arr[wall];
+    arr[wall] = pivot;
+    arr[pivotIndex] = temporary;
     return wall;
     
 } public static int[] quickSort(int[] arr, int left, int right) {
@@ -29,7 +27,7 @@ public static int partition(int[] arr, int left, int right) {
 }
 
 public static void main(String[] args) {
-    int[] arr = {7, 2, 9, 4, 5};
+    int[] arr = {7, 2, 9, 4, 5};        //insert array here
     quickSort(arr, 0, arr.length - 1);
     for (int i = 0; i < arr.length; i++) {
         System.out.println(arr[i]);
