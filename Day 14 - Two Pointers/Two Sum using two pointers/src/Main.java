@@ -4,10 +4,10 @@
 
      public static int[] twoSum(int[] arr, int target, int left, int right) {
          int[] ans = {-1, -1};
-         int sum = arr[left] + arr[right];
          if (left >= right) {
             return ans;
-         } if (sum > target) {
+         } int sum = arr[left] + arr[right];
+         if (sum > target) {
             return twoSum(arr, target, left, right - 1);
          } else if (sum < target) {
             return twoSum(arr, target, left + 1, right);
