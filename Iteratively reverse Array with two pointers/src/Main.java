@@ -1,13 +1,31 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
+/**
+ * Purpose: Reverse an array IN PLACE using two pointers. This version does it iteratively.
+ * */
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
+public static void reverse(int[] arr) {
+    int left = 0;
+    int right = arr.length - 1;
+    int temp;
+    while (left < right) {
+        temp = arr[left];
+        arr[left] = arr[right];
+        arr[right] = temp;
+        left++;
+        right--;
+    } return;
+    /** Here is another way to do this but with a for loop (it technically only uses one pointer, though)
+     * for (int i = 0; i < arr.length/2; i++) {
+        left = arr[i];
+        right = arr[arr.length - i - 1];
+        arr[i] = right;
+        arr[arr.length - i - 1] = left;
+    }*/
+}
+
+public static void main(String[] args) {
+    int[] arr = {};     //insert array here
+    reverse(arr);
+    for (int i = 0; i < arr.length; i++) {
+        System.out.println(arr[i]);
     }
 }
