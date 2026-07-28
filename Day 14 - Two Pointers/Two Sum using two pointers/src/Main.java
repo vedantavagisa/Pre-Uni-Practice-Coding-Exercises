@@ -2,10 +2,11 @@ public static int[] twoSum(int[] arr, int target) {
     int[] ans = {-1, -1};
     int left = 0;
     int right = arr.length - 1;
+    int sum = arr[left] + arr[right];
     while (left < right) {
-        if (arr[left] + arr[right] > target) {
+        if (sum > target) {
             right--;
-        } else if (arr[left] + arr[right] < target) {
+        } else if (sum < target) {
             left++;
         } else {
             ans[0] = left;
