@@ -7,33 +7,33 @@
 public static int[] slidingWindow(int[] arr, int k) {
     int[] negatives = new int[arr.length - k + 1];
     Queue<Integer> queue = new LinkedList<>();
-    int leftBoundary;
-    int index;
+    int leftBoundary, index, answerIndex;
     for (int j = 0; j < k; j++) {
         if (arr[j] < 0) {
             queue.add(j);
-        } if (queue.isEmpty()) {
-            negatives[j] = 0;
-        } else {
-            negatives[j] = arr[queue.peek()];
         }
-    } for (int i = k; i < negatives.length; i++) {
+    } if (queue.isEmpty()) {
+        negatives[0] = 0;
+    } else {
+        negatives[0] = arr[queue.peek()];
+    } for (int i = k; i < arr.length; i++) {
+        answerIndex = i - k + 1;
         leftBoundary = i - k + 1;
         if (arr[i] < 0) {
             queue.add(i);
         } if (queue.isEmpty()) {
-            negatives[i] = 0;
+            negatives[answerIndex] = 0;
         } else {
             index = queue.peek();
             if (index < leftBoundary) {
                 queue.remove();
                 if (queue.isEmpty()) {
-                    negatives[i] = 0;
+                    negatives[answerIndex] = 0;
                 } else {
-                    negatives[i] = arr[queue.peek()];
+                    negatives[answerIndex] = arr[queue.peek()];
                 }
             } else {
-                negatives[i] = arr[queue.peek()];
+                negatives[answerIndex] = arr[queue.peek()];
             }
         }
     } return negatives;
