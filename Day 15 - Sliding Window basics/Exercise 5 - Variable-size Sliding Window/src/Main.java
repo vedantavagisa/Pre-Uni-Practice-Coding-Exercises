@@ -9,7 +9,9 @@ public static int slidingWindow(int[] arr, int k) {
     int answer = 0;
     int temporary = 0;
     while (left <= right && right < arr.length) {
-        if (sum <= k) {
+        if (temporary > answer) {
+            answer = temporary;
+        } if (sum <= k) {
             sum += arr[right];
             right++;
             temporary++;
@@ -17,14 +19,12 @@ public static int slidingWindow(int[] arr, int k) {
             sum -= arr[left];
             left++;
             temporary--;
-        } if (temporary > answer) {
-            answer = temporary;
         }
     } return answer;
 }
 
 public static void main(String[] args) {
-    int[] arr = {2, 1, 5, 1, 3, 2};
+    int[] arr = {8};    //original array was {2, 1, 5, 1, 3, 2}
     int k = 7;
     System.out.println("The biggest subarray whose elements' sum is less than or equal to k is " + slidingWindow(arr, k));
 }
