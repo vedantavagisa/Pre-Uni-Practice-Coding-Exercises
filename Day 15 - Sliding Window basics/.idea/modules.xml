@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Day 15 - Sliding Window basics.iml" filepath="$PROJECT_DIR$/.idea/Day 15 - Sliding Window basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 1 - Brute-force the problem/Exercise 1 - Brute-force the problem.iml" filepath="$PROJECT_DIR$/Exercise 1 - Brute-force the problem/Exercise 1 - Brute-force the problem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 2 - Recomputing sliding window in O n/Exercise 2 - Recomputing sliding window in O n.iml" filepath="$PROJECT_DIR$/Exercise 2 - Recomputing sliding window in O n/Exercise 2 - Recomputing sliding window in O n.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 3 - Compute the largest average in an array/Exercise 3 - Compute the largest average in an array.iml" filepath="$PROJECT_DIR$/Exercise 3 - Compute the largest average in an array/Exercise 3 - Compute the largest average in an array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 4 - First Negative number in subarray/Exercise 4 - First Negative number in subarray.iml" filepath="$PROJECT_DIR$/Exercise 4 - First Negative number in subarray/Exercise 4 - First Negative number in subarray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 5 - Variable-size Sliding Window/Exercise 5 - Variable-size Sliding Window.iml" filepath="$PROJECT_DIR$/Exercise 5 - Variable-size Sliding Window/Exercise 5 - Variable-size Sliding Window.iml" />
+    </modules>
+  </component>
+</project>
