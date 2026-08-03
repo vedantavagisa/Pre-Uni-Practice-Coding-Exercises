@@ -46,7 +46,8 @@ To maximize efficiency and keep you hackathon-ready, we are going to tweak the l
 
 ### Days 21–30: Python Translation & Frontend Foundations
 
-* **Day 21:** * *Algorithms (2h):* Learn Python syntax for loops, lists, and dicts. Translate 3 of your Java data structure problems into Python.
+* **Day 21:** 
+* *Algorithms (2h):* Learn Python syntax for loops, lists, and dicts. Translate 3 of your Java data structure problems into Python.
 * *Dev (2h):* Introduction to the Web. Learn how browsers parse HTML. Build a completely unstyled, semantic webpage outline.
 
 
