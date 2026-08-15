@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Day 04 - HashMaps.iml" filepath="$PROJECT_DIR$/.idea/Day 04 - HashMaps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 1 - count all occurences in a String/Exercise 1 - count all occurences in a String.iml" filepath="$PROJECT_DIR$/Exercise 1 - count all occurences in a String/Exercise 1 - count all occurences in a String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 2 - Student Gradebook/Exercise 2 - Student Gradebook.iml" filepath="$PROJECT_DIR$/Exercise 2 - Student Gradebook/Exercise 2 - Student Gradebook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 3 - Character Occurrences/Exercise 3 - Character Occurrences.iml" filepath="$PROJECT_DIR$/Exercise 3 - Character Occurrences/Exercise 3 - Character Occurrences.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 4 - Shopping Cart total/Exercise 4 - Shopping Cart total.iml" filepath="$PROJECT_DIR$/Exercise 4 - Shopping Cart total/Exercise 4 - Shopping Cart total.iml" />
+    </modules>
+  </component>
+</project>
