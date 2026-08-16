@@ -26,3 +26,12 @@ print(a)  # [1, 2, 3, 4, 5, 6] }
 lol.reverse()
 for i in range (len(lol)):
     print(lol[i])
+
+'''
+Next:
+* Dictionaries
+* Recursion
+* Two-Pointers
+* Sliding Window
+//Why is this "one day" exercise taking over 5 days 💀😭
+'''
