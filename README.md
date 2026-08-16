@@ -41,53 +41,51 @@ To maximize efficiency and keep you hackathon-ready, we are going to tweak the l
 
 ## Part 2: The Core Skill Acceleration (Days 21–40)
 
-**Commitment:** 4 hours / day (Split: 2 hours Competitive Programming/Algorithms, 2 hours Development)
-**Focus:** Algorithmic thinking & Web Dev Fundamentals (HTML, CSS, JavaScript).
+**Commitment:** 4 hours / day (Split: 2 hours Competitive Programming/Algorithms, 2 hours Development, with some development-heavy days)
+**Focus:** Algorithmic thinking, Python/Java fluency, and Web Development Fundamentals (HTML, CSS, JavaScript).
 
 ### Days 21–30: Python Translation & Frontend Foundations
 
 * **Day 21:** 
-* *Algorithms (2h):* Learn Python syntax for loops, lists, and dicts. Translate 3 of your Java data structure problems into Python.
+* *Algorithms (2h):* Python Translation Day. Learn Python syntax for loops, lists, dictionaries, and sets. Translate selected Java data-structure and algorithm problems into Python, including HashMaps/Dictionaries, recursion, two-pointers, and sliding window. Focus on understanding Python's idioms and how they differ from Java rather than maximizing the number of exercises.
 * *Dev (2h):* Introduction to the Web. Learn how browsers parse HTML. Build a completely unstyled, semantic webpage outline.
 
 
 * **Day 22:**
-* *Algorithms (2h):* Practice Python-specific optimizations (list comprehensions, slicing). Solve 2 basic LeetCode string problems.
+* *Algorithms (2h):* Practice Python-specific syntax and optimizations (list comprehensions, slicing, string operations, dictionary/set idioms). Solve 2 basic LeetCode string problems in Python.
 * *Dev (2h):* CSS Basics. Learn selectors, specificity, and the Box Model (margins, padding, borders).
 
 
 * **Day 23:**
-* *Algorithms (2h):* Two-pointer problems in Python. Solve LeetCode 11 (Container With Most Water).
-* *Dev (2h):* CSS Layouts. Master **Flexbox**. Build a responsive navigation bar and a product card grid.
+* *Dev (4h):* CSS Layouts. Master **Flexbox**. Build a responsive navigation bar and a product card grid. Use the extra time to reinforce selectors, spacing, sizing, and responsive layout.
 
 
 * **Day 24:**
-* *Algorithms (2h):* Sliding Window in Python. Solve LeetCode 3 (Longest Substring Without Repeating Characters).
-* *Dev (2h):* CSS Layouts. Master **CSS Grid**. Build a magazine-style dashboard layout.
+* *Dev (4h):* CSS Layouts. Master **CSS Grid**. Build a magazine-style dashboard layout. Compare when Grid is more appropriate than Flexbox and practice combining both.
 
 
 * **Day 25:**
 * *Algorithms (2h):* **Math Maintenance.** Spend this block reviewing Matrix multiplication and systems of linear equations.
-* *Dev (2h):* Intro to JavaScript (JS). Learn variables (`let`, `const`), data types, and functions.
+* *Dev (2h):* Intro to JavaScript (JS). Learn variables (`let`, `const`), data types, operators, conditionals, loops, and functions.
 
 
 * **Day 26:**
-* *Algorithms (2h):* Introduction to Graphs. Learn how to represent a graph using an Adjacency List in Python.
+* *Algorithms (2h):* Introduction to Graphs. Learn how to represent a graph using an Adjacency List. Implement the representation in **Java first**, then translate the same representation into **Python**, paying attention to the differences between the languages' lists/dictionaries and standard-library conventions.
 * *Dev (2h):* JS DOM Manipulation. Learn how to use `document.querySelector` to select and change HTML elements dynamically.
 
 
 * **Day 27:**
-* *Algorithms (2h):* Graph Traversal. Implement Breadth-First Search (BFS) iteratively using a queue.
+* *Algorithms (2h):* Graph Traversal. Learn and implement Breadth-First Search (BFS) iteratively using a queue in **Java first**, then implement the Python version. Compare Java's queue/data-structure conventions with Python's `collections.deque`.
 * *Dev (2h):* JS Events. Learn how to listen for clicks, keypresses, and form submissions. Build a basic counter app.
 
 
 * **Day 28:**
-* *Algorithms (2h):* Graph Traversal. Implement Depth-First Search (DFS) recursively.
-* *Dev (2h):* Modern JS (ES6+). Master arrow functions, array methods (`.map()`, `.filter()`, `.reduce()`), and destructuring.
+* *Algorithms (2h):* Graph Traversal. Learn and implement Depth-First Search (DFS) recursively in **Java first**, then translate it into Python. Focus on the algorithm itself and the differences in syntax/data-structure usage rather than solving the same problems twice.
+* *Dev (2h):* Modern JS (ES6+). Learn arrow functions, array methods (`.map()`, `.filter()`, `.reduce()`), and destructuring.
 
 
 * **Day 29:**
-* *Algorithms (2h):* Introduction to Dynamic Programming (DP). Study the concept of memoization (caching recursive results).
+* *Algorithms (2h):* Introduction to Dynamic Programming (DP). Study the concept of memoization (caching recursive results). Implement a simple memoized problem in Java.
 * *Dev (2h):* Asynchronous JS. Understand the event loop, Promises, and the `async/await` syntax.
 
 
@@ -96,58 +94,56 @@ To maximize efficiency and keep you hackathon-ready, we are going to tweak the l
 * *Dev (2h):* Working with APIs. Use `fetch()` in JS to request data from a public API (like a weather or dog image API) and render it on your page.
 
 
-
 ### Days 31–40: Advanced Logic & Backend Architecture
 
 * **Day 31:**
-* *Algorithms (2h):* Classic DP. Solve the 0/1 Knapsack problem using a memoization table.
-* *Dev (2h):* Intro to Backend. Install Node.js or Python Flask/FastAPI (Recommended: **Python FastAPI** for clean, fast API building). Write a "Hello World" server.
+* *Algorithms (2h):* Classic DP. Solve the 0/1 Knapsack problem using a memoization table in Java.
+* *Dev (2h):* Intro to Backend with **Spring Boot**. Create a Spring Boot project, understand its basic structure, run the application, and create a simple `GET` endpoint returning `"Hello World"`.
 
 
 * **Day 32:**
-* *Algorithms (2h):* Tabular DP. Solve the Coin Change problem using bottom-up iteration.
-* *Dev (2h):* HTTP Protocol. Learn HTTP methods (`GET`, `POST`, `PUT`, `DELETE`) and status codes (`200`, `201`, `404`, `500`).
+* *Algorithms (2h):* Tabular DP. Solve the Coin Change problem using bottom-up iteration in Java.
+* *Dev (2h):* HTTP Protocol. Learn HTTP methods (`GET`, `POST`, `PUT`, `DELETE`) and status codes (`200`, `201`, `404`, `500`). Understand how these concepts map onto Spring Boot REST endpoints.
 
 
 * **Day 33:**
-* *Algorithms (2h):* Greedy Algorithms. Solve interval scheduling problems (e.g., LeetCode 56: Merge Intervals).
-* *Dev (2h):* Building Routing logic. Create a backend API that handles multiple endpoints and path parameters (e.g., `/items/42`).
+* *Algorithms (2h):* Greedy Algorithms. Solve interval scheduling problems (e.g., LeetCode 56: Merge Intervals) in Java.
+* *Dev (2h):* Spring Boot Routing. Create a backend API that handles multiple endpoints and path parameters (e.g., `/items/42`). Learn basic controller annotations such as `@GetMapping`.
 
 
 * **Day 34:**
-* *Algorithms (2h):* Bit Manipulation. Learn bitwise operators (`&`, `|`, `^`, `<<`, `>>`). Solve problems involving binary representations.
-* *Dev (2h):* Request Bodies. Learn how to parse JSON payloads sent from a user in a `POST` request.
+* *Algorithms (2h):* Bit Manipulation. Learn bitwise operators (`&`, `|`, `^`, `<<`, `>>`). Solve problems involving binary representations in Java.
+* *Dev (2h):* Request Bodies. Learn how Spring Boot receives JSON payloads sent from a user in a `POST` request and maps them to Java objects.
 
 
 * **Day 35:**
 * *Algorithms (2h):* **Math Maintenance.** Review combinatorics (permutations, combinations, and Pascal's triangle).
-* *Dev (2h):* Databases. Understand SQL vs. NoSQL. Set up a simple local database or use a cloud solution like MongoDB Atlas or Supabase.
+* *Dev (2h):* Databases. Learn the fundamentals of **SQL** and relational databases. Understand tables, rows, columns, primary keys, basic queries, and SQL vs. NoSQL. Set up a simple local SQL database.
 
 
 * **Day 36:**
-* *Algorithms (2h):* Advanced Data Structures. Study the conceptual mechanics of a Binary Search Tree (BST).
-* *Dev (2h):* Connecting Backend to Database. Write code to save a user's form input from the API endpoint straight into your database.
+* *Algorithms (2h):* Advanced Data Structures. Study the conceptual mechanics of a Binary Search Tree (BST) in Java.
+* *Dev (2h):* Connecting Spring Boot to a Database. Configure the backend to connect to the database and write code to save a user's form input through an API endpoint.
 
 
 * **Day 37:**
-* *Algorithms (2h):* Implement BST insertion, deletion, and lookups in Python.
-* *Dev (2h):* Read Data from Database. Write a `GET` route that fetches data from your database and returns it as a JSON array.
+* *Algorithms (2h):* Implement BST insertion, deletion, and lookups in **Java first**, then translate the implementation into Python. Pay attention to how classes, references, and recursive methods differ between the languages.
+* *Dev (2h):* Read Data from Database. Write a Spring Boot `GET` route that fetches data from the database and returns it as a JSON array.
 
 
 * **Day 38:**
-* *Algorithms (2h):* Tree Traversals (In-order, Pre-order, Post-order). Understand their relationships to DFS.
-* *Dev (2h):* Cross-Origin Resource Sharing (CORS). Learn how to safely configure your backend so your local frontend can talk to it without security blocks.
+* *Algorithms (2h):* Tree Traversals (In-order, Pre-order, Post-order). Implement them in Java and understand their relationships to DFS.
+* *Dev (2h):* Cross-Origin Resource Sharing (CORS). Learn how to safely configure the Spring Boot backend so the local JavaScript frontend can talk to it without browser security blocks.
 
 
 * **Day 39:**
-* *Algorithms (2h):* Solve 2 classic tree-based competitive programming problems (e.g., Finding the maximum depth of a tree).
-* *Dev (2h):* Postman / Bruno. Learn to test backend endpoints systematically using API testing clients without needing a frontend UI.
+* *Algorithms (2h):* Solve 2 classic tree-based competitive programming problems (e.g., Finding the maximum depth of a tree) in Java.
+* *Dev (2h):* Postman / Bruno. Learn to test Spring Boot backend endpoints systematically using API testing clients without needing a frontend UI.
 
 
 * **Day 40:**
 * *Algorithms (2h):* **Math Maintenance.** Review basic limit properties and derivative rules from Calculus to stay fresh for calculus sequences.
-* *Dev (2h):* Architecture Planning. Design the data schema and API endpoints for your upcoming summer side project.
-
+* *Dev (2h):* Architecture Planning. Design the database schema and Spring Boot API endpoints for your upcoming summer side project. Plan how the HTML/CSS/JS frontend will communicate with the Java backend.
 
 
 ---
@@ -155,16 +151,26 @@ To maximize efficiency and keep you hackathon-ready, we are going to tweak the l
 ## Part 3: The Capstone & Polish Block (Days 41–60)
 
 **Commitment:** 4 hours / day
-**Focus:** Building your full-stack side project from scratch, deploying it, and setting up C++ environments.
+**Focus:** Building your full-stack side project from scratch using HTML/CSS/JavaScript + Spring Boot + SQL, deploying it, and setting up C++ environments.
 
-* **Day 41–42: Project Kickoff & Database Setup** Initialize your Git repository. Create your database instances and write the backend scripts to initialize tables or collections.
-* **Day 43–45: Core Backend API Build** Build out all necessary endpoints (`GET`, `POST`, etc.). Test every single route using your API client to ensure data validates, saves, and updates correctly.
-* **Day 46–49: Frontend Interface Construction** Build your clean, responsive user interface using structural HTML, CSS Flexbox/Grid, and modular JavaScript files. Focus on the visual layout before linking data.
+* **Day 41–42: Project Kickoff & Database Setup** Initialize your Git repository. Create your SQL database and configure your Spring Boot project. Create the initial tables and establish the backend's connection to the database.
+
+* **Day 43–45: Core Backend API Build** Build out all necessary Spring Boot endpoints (`GET`, `POST`, etc.). Test every route using your API client to ensure data validates, saves, updates, and retrieves correctly.
+
+* **Day 46–49: Frontend Interface Construction** Build your clean, responsive user interface using structural HTML, CSS Flexbox/Grid, and modular JavaScript files. Focus on the visual layout and user interaction before linking the frontend to the backend.
+
 * **Day 50: Math Maintenance Intermission** Take a full 4-hour break from the project. Spend this day practicing proof-by-induction exercises and reviewing complex algebraic rearrangements.
-* **Day 51–54: The Integration Phase (The Full Stack Connection)** Use modern JS `fetch` requests inside your frontend UI to send data to your running API server. Wire up event listeners so your app dynamically rerenders when changes happen in the database.
-* **Day 55: Debugging & Edge Cases** Test user validation. What happens if a user submits an empty form? Catch errors on the backend and display meaningful messages on the frontend.
-* **Day 56: Deployment Setup** Host your backend on a cloud service (like Render) and your frontend on a static provider (like Vercel or Netlify). Ensure they talk to each other across production URLs.
-* **Day 57: Git Cleanup & Documentation** Refactor your code blocks. Write a pristine `README.md` file detailing your tech stack, system architecture, how to run it locally, and screenshots of features. This turns your repository into a true resume asset.
-* **Day 58: Introduction to C++ Mechanics** Install a C++ compiler (GCC/Clang). Understand the manual compilation lifecycle (`g++ main.cpp -o main`). Write a basic program and look at static typing compared to Java.
+
+* **Day 51–54: The Integration Phase (The Full Stack Connection)** Use modern JS `fetch` requests inside your frontend UI to communicate with the Spring Boot API. Wire up event listeners so the frontend dynamically updates when changes happen in the database.
+
+* **Day 55: Debugging & Edge Cases** Test user validation. What happens if a user submits an empty form? Catch errors in the Spring Boot backend and display meaningful messages on the frontend.
+
+* **Day 56: Deployment Setup** Deploy the Spring Boot backend and frontend to appropriate cloud hosting providers. Ensure the production frontend can communicate with the production backend and database.
+
+* **Day 57: Git Cleanup & Documentation** Refactor your code blocks. Write a pristine `README.md` file detailing your tech stack, system architecture, API endpoints, database structure, how to run it locally, and screenshots of features. This turns your repository into a true resume asset.
+
+* **Day 58: Introduction to C++ Mechanics** Install a C++ compiler (GCC/Clang). Understand the manual compilation lifecycle (`g++ main.cpp -o main`). Write a basic program and compare static typing and compilation with Java.
+
 * **Day 59: Memory & Pointer Fundamentals** Study memory allocation. Learn about references (`&`), raw pointers (`*`), dereferencing values, and why managing memory directly makes code faster but riskier.
-* **Day 60: Wrap Up & Final Review** Test compile a small C++ application utilizing standard vectors. Take a step back, look at your deployed full-stack application, and rest up before moving to campus.
+
+* **Day 60: Wrap Up & Final Review** Test compile a small C++ application utilizing standard vectors. Take a step back, look at your deployed full-stack application, and rest before moving to campus.
