@@ -33,5 +33,6 @@ Next:
 * Recursion
 * Two-Pointers
 * Sliding Window
+* Deque
 //Why is this "one day" exercise taking over 5 days 💀😭
 '''
