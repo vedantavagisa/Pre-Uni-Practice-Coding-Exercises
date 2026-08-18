@@ -8,13 +8,21 @@ def slide(arr, k):
     '''
     left = 0
     tempsum = 0
-    templength = 0 #this is templength
+    templength = 0
+    right = 0 #length is right minus left
     length = 0
     while (left < len(arr)):
-        while (tempsum <= k):
-            tempsum += arr[templength]
-            templength += 1
-        length = templength
+        #the code below does the expansion operation
+        while (tempsum <= k and right < len(arr)):
+            tempsum += arr[right]
+            right += 1
+        tempsum -= arr[right]
+        right -= 1
+        templength = right - left
+        if (templength > length):
+            length = templength
+        #the code below does the shrinking operation
+        tempsum -= arr[left]
         left += 1
     return length
 
