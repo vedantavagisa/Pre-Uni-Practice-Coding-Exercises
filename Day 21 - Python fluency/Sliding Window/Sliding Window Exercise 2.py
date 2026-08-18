@@ -6,27 +6,26 @@ def slide(arr, k):
     - sum as much as you can before hitting k
     - after that, remove the first element and repeat the same process
     '''
+
     left = 0
+    right = 0
     tempsum = 0
     templength = 0
-    right = 0 #length is right minus left
     length = 0
-    while (left < len(arr)):
-        #the code below does the expansion operation
-        while (tempsum <= k and right < len(arr)):
-            tempsum += arr[right]
-            right += 1
-        tempsum -= arr[right]
-        right -= 1
+    #code to expand
+    while (right < len(arr)):
+        tempsum += arr[right]
+        right += 1
+        #code to shrink
+        while (tempsum > k):
+            tempsum -= arr[left]
+            left += 1
         templength = right - left
         if (templength > length):
             length = templength
-        #the code below does the shrinking operation
-        tempsum -= arr[left]
-        left += 1
     return length
 
 arr = [4, 1, 6, 2, 6, 3, 6]
-k = 11
+k = 8
 print(f"The list is {arr}")
 print(f"The greatest sublength of a subarray whose sum is less than or equal to {k} is {slide(arr, k)}")
