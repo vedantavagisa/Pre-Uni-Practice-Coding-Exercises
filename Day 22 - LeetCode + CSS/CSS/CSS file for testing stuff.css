@@ -17,9 +17,11 @@ h1 {
 h2 {
     align-content: stretch; /*I don't see anything happening?*/
     text-align: center; /*there we go*/
-    text-orientation: mixed; /* what does this do*/
+    text-orientation: upright; /*wow thats interesting */
+    writing-mode: vertical-lr;
     font-family: "Atkinson Hyperlegible";
     word-wrap: anywhere; /*Again, I don't see the words wrapping?*/
+    text-wrap: balance; /*ok lol this is illegible now*/
     background: darkkhaki;
 }
 
@@ -30,7 +32,7 @@ h2 {
     text-decoration-thickness: 10px;
 }
 
-thead > p {
+tr > th {
     font-family: "Arial Black"; /* why isnt the font changing*/
 }
 
