@@ -1,0 +1,47 @@
+.box {
+    width: 100px; /*self explanatory*/
+    padding: 20px; /*this controls space between the border and the content*/
+    border: 1px solid black; /*self explanatory*/
+    margin: 10px; /*this applies both horizontally and diagonally and controls space outside the content*/
+}
+
+body {
+    background: cornflowerblue;
+}
+
+h1 {
+    color: green;
+    font-family: "Book Antiqua";
+}
+
+h2 {
+    align-content: stretch; /*I don't see anything happening?*/
+    text-align: center; /*there we go*/
+    text-orientation: mixed; /* what does this do*/
+    font-family: "Atkinson Hyperlegible";
+    word-wrap: anywhere; /*Again, I don't see the words wrapping?*/
+    background: darkkhaki;
+}
+
+.teehee {
+    color: deeppink;
+    font-family: "Comic Sans MS";
+    text-decoration: aliceblue;
+    text-decoration-thickness: 10px;
+}
+
+thead > p {
+    font-family: "Arial Black"; /* why isnt the font changing*/
+}
+
+table {
+    border: 3px dotted darkblue;
+}
+
+td {
+    text-align: center; /*ok so align-self doesn't work but text-align does*/
+}
+
+#hey {
+    font-family: "Wingdings"; /*why is the font not changing aaaaaa*/
+}
