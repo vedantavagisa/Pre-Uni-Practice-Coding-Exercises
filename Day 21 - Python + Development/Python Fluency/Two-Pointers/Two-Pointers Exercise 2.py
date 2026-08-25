@@ -11,7 +11,7 @@ def twoSum(arr, target):
             left += 1
         else:
             return left, right
-    return -1
+    return -1, -1
 
 arr = [3, 1, 7, 12, 87, 2, 7]
 arr.sort()
