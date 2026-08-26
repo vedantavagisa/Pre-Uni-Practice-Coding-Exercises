@@ -47,3 +47,7 @@ td {
 #hey {
     font-family: "Wingdings"; /*why is the font not changing aaaaaa*/
 }
+
+table {
+    border: 5px solid black;
+}
