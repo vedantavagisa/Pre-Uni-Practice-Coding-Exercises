@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd95a067-f0f3-4ea4-abd4-37ced067a6c8" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vedantavagisa&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/vedantavagisa/Pre-Uni-Practice-Coding-Exercises.git&quot;,
+    &quot;accountId&quot;: &quot;d8e40737-5853-4958-b462-3bc26c85d4b2&quot;
+  }
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000444430125988" />
+      <entry key="MS500" value="1.2492100768360832" />
+      <entry key="S2" value="4.30222249371656" />
+      <entry key="S5" value="9.17059208191191" />
+      <entry key="S10" value="14.241914776676307" />
+      <entry key="S30" value="24.321327939399843" />
+      <entry key="S60" value="30.557976587885385" />
+      <entry key="M2" value="43.34471534905261" />
+      <entry key="M5" value="129.72860881061536" />
+      <entry key="M10" value="295.6802611371989" />
+      <entry key="M15" value="422.26871900713263" />
+      <entry key="M30" value="638.1663024905804" />
+      <entry key="H1" value="823.6010498927584" />
+      <entry key="H2" value="979.4449317330541" />
+      <entry key="H4" value="1098.8998827808641" />
+      <entry key="D1" value="1239.431125861938" />
+      <entry key="W1" value="1268.9031444810316" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.0930197700778654E-79" />
+      <entry key="S2" value="1.8183204153889427E-20" />
+      <entry key="S5" value="1.2901129954485293E-8" />
+      <entry key="S10" value="1.268229248723075E-4" />
+      <entry key="S30" value="0.07248053077184233" />
+      <entry key="S60" value="0.37876448078294994" />
+      <entry key="M2" value="0.9590111859002406" />
+      <entry key="M5" value="2.6235028562304747" />
+      <entry key="M10" value="5.616931730549561" />
+      <entry key="M15" value="8.088260306438514" />
+      <entry key="M30" value="12.526409748107511" />
+      <entry key="H1" value="16.12130403034981" />
+      <entry key="H2" value="18.5798541599035" />
+      <entry key="H4" value="20.115460867604416" />
+      <entry key="D1" value="21.65387373563628" />
+      <entry key="W1" value="21.949632803880643" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9461000124886828" />
+      <entry key="MS500" value="1.2359091901328485" />
+      <entry key="S2" value="4.290129139663021" />
+      <entry key="S5" value="9.156881397486572" />
+      <entry key="S10" value="14.228781912200896" />
+      <entry key="S30" value="24.375477839354215" />
+      <entry key="S60" value="30.91534115668358" />
+      <entry key="M2" value="44.280016454559714" />
+      <entry key="M5" value="132.3125373542947" />
+      <entry key="M10" value="301.2467580941498" />
+      <entry key="M15" value="430.3070980706051" />
+      <entry key="M30" value="650.6533673953242" />
+      <entry key="H1" value="839.695941534774" />
+      <entry key="H2" value="998.008325637825" />
+      <entry key="H4" value="1119.0057329138083" />
+      <entry key="D1" value="1261.0831092411229" />
+      <entry key="W1" value="1290.8524983253374" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3I6H7pGLiawlsRiaPk0sO11cCXd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/vedan/OneDrive/Documents/GitHub/Pre-Uni-Practice-Coding-Exercises/Day 21 - Python + Development/Web Development (learning HTML)/index/src/Main.java",
+    "settings.editor.selected.configurable": "Errors",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.26222.65" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.26222.65" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd95a067-f0f3-4ea4-abd4-37ced067a6c8" name="Changes" comment="" />
+      <created>1787077939623</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1787077939623</updated>
+      <workItem from="1787077940945" duration="6857000" />
+      <workItem from="1787159305646" duration="1436000" />
+      <workItem from="1787588092344" duration="518000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
