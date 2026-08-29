@@ -1,0 +1,45 @@
+/*Below is boilerplate code copied from the MDN website*/
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: black;
+
+}
+header {
+  background: purple;
+  height: 100px;
+}
+h1 {
+  text-align: center;
+  color: white;
+  line-height: 100px;
+  margin: 0;
+}
+section {
+  zoom: 0.8;
+  display: flex; /*Each */
+}
+article {
+  padding: 10px;
+  margin: 10px;
+  background: aqua;
+}
+/* Add your flexbox CSS below here */
+
+section {
+  display: flex;
+  flex-flow: row wrap;
+    /*
+    The section element hereby becomes a FLEX CONTAINER while each child becomes a FLEX ITEM
+    - The direction that the flex items are laid out is called the MAIN AXIS and the direction perpendicular to it is called the CROSS AXIS
+    - Each item's measurement along either the main or cross axis is called the MAIN SIZE or the CROSS SIZE, respectively.
+    */
+  /**/
+}
+article {
+  flex: 1;
+}
+
+article:nth-of-type(3) {
+  flex: 4;
+}
