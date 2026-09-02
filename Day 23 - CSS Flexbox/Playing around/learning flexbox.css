@@ -16,19 +16,38 @@ h1 {
   margin: 0;
 }
 section {
-  zoom: 0.8;
+  zoom: 1;
   display: flex; /*Each */
 }
 article {
   padding: 10px;
   margin: 10px;
   background: aqua;
+  flex: 2 50px;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  align-items: center;
 }
 /* Add your flexbox CSS below here */
+
+button {
+  display: flex;
+  flex: 1 auto;
+  align-items: center; /*controls cross axis*/
+  justify-content: space-around; /*controls main axis*/
+  font-family: "Comic Sans MS";
+  max-width: 960px;
+  margin: 50px auto;
+  font-size: 18px;
+  line-height: 1.5;
+  width: 15%;
+}
 
 section {
   display: flex;
   flex-flow: row wrap;
+  /*this is equal to flex-direction: row; and flex-wrap: wrap;*/
     /*
     The section element hereby becomes a FLEX CONTAINER while each child becomes a FLEX ITEM
     - The direction that the flex items are laid out is called the MAIN AXIS and the direction perpendicular to it is called the CROSS AXIS
@@ -36,10 +55,7 @@ section {
     */
   /**/
 }
-article {
-  flex: 1;
-}
 
 article:nth-of-type(3) {
-  flex: 4;
+  flex: 3 50px;
 }
